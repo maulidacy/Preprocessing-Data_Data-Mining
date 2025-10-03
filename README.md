@@ -30,8 +30,7 @@ Langkah-langkah yang dilakukan dalam preprocessing ini meliputi:
    - Scaling hanya di-fit ke data train untuk mencegah data leakage.
 
 ## File di Repo
-- preprocessing.ipynb → Notebook dengan langkah-langkah preprocessing + penjelasan tiap tahap.
-- preprocessing.py → Script Python untuk menjalankan preprocessing secara langsung (opsional).
+- Preprocessing_Data.ipynb → Notebook dengan langkah-langkah preprocessing + penjelasan tiap tahap.
 - README.md → Penjelasan tentang proyek ini.
 
 ## Dataset
@@ -39,19 +38,16 @@ Dataset bisa diunduh dari:
 [UCI Credit Approval Dataset](https://archive.ics.uci.edu/dataset/27/credit%2Bapproval)
 
 ## Cara Menjalankan
-1. Clone repository ini:
+1. Clone repository ini atau download sebagai ZIP.
+   
+   Clone:
    ```bash
    git clone https://github.com/username/Preprocessing-Data_Data-Mining.git
    cd Preprocessing-Data_Data-Mining
-2. Install library yang dibutuhkan:
-    ```bash
-   pip install pandas numpy scikit-learn
-3. Jalankan script atau notebook:
+2. Buka file 'Preprocessing_Data.ipynb' di Jupyter Notebook/VSCode.
+3. Jalankan sel secara berurutan untuk melihat hasil preprocessing.
 
-   Notebook: buka Preprocessing_Data.ipynb di Jupyter/VSCode.
-   
-   Script:
-   ```bash
-   python Preprocessing_Data.py
+  
+
 
 
