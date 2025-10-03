@@ -8,7 +8,7 @@ Langkah-langkah yang dilakukan dalam preprocessing ini meliputi:
 
 1. *Import Dataset*
    - Menggunakan pandas untuk membaca file crx.data dari UCI.
-   - Tanda ? dianggap sebagai nilai missing.
+   - Mengganti tanda '?' menjadi NaN.
 
 2. *Handle Missing Values*
    - Kolom numerik diisi dengan *median*.
@@ -48,6 +48,7 @@ Dataset bisa diunduh dari:
 3. Jalankan sel secara berurutan untuk melihat hasil preprocessing.
 
   
+
 
 
 
