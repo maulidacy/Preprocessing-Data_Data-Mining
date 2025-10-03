@@ -41,8 +41,8 @@ Dataset bisa diunduh dari:
 ## Cara Menjalankan
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/username/credit-approval-preprocessing.git
-   cd credit-approval-preprocessing
+   git clone https://github.com/username/Preprocessing-Data_Data-Mining.git
+   cd Preprocessing-Data_Data-Mining
 2. Install library yang dibutuhkan:
     ```bash
    pip install pandas numpy scikit-learn
@@ -53,4 +53,5 @@ Dataset bisa diunduh dari:
    Script:
    ```bash
    python Preprocessing_Data.py
+
 
